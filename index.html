@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://kit.fontawesome.com/edb600a6e3.js" crossorigin="anonymous"></script>
 
+  <link rel="stylesheet" media="" href="css/style.css">
   <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
   <link rel="stylesheet" media="screen and (min-width: 1100px" href="css/widescreen.css">
-  <link rel="stylesheet" media="" href="css/style.css">
   <title>EdgeLedger Financial • Accounting & Investment</title>
 </head>
 <body id="home">
@@ -83,6 +83,7 @@
   </section>
 
   <!-- Section: Clients -->
+
   <section id="clients" class="py-1">
     <div class="container">
       <h2 class="m-heading text-center"><span class="text-primary">Our</span> Clients</h2>
@@ -95,5 +96,54 @@
       </div>
     </div>
   </section>
+
+  <!-- Section: Contact -->
+
+  <section id="contact">
+    <div class="contact-form bg-primary p-2">
+      <h2 class="m-heading">Contact Us</h2>
+      <p>Please use the form below to contact us</p>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="Enter Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Enter Email">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" placeholder="Enter Message"></textarea>
+        </div>
+        <input type="submit" value="Send" class="btn btn-dark">
+      </form>
+    </div>
+    <div class="map"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="main-footer" class="bg-dark text-center py-1">
+    <div class="container">
+      <p>Copyright &copy; 2019, EdgeLedger, All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <!-- JQuery CDN -->
+  <script
+  src="http://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+  <!-- Local JS File -->
+  <script src="js/main.js"></script>
+
+  <!-- Google Maps  -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNF_wJicrQNypmnHIl4ldqiFUevganzbw&callback=initMap"
+    async defer></script>
 </body>
 </html>
